@@ -54,10 +54,10 @@ export default function Index() {
     );
   }
 
-  // Show login if no session
-  if (!session) {
-    return <Login />;
-  }
+  // // Show login if no session
+  // if (!session) {
+  //   return <Login />;
+  // }
 
   // Show main app with navigation if authenticated
   return <GlassNavBar />;

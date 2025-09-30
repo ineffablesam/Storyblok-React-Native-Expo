@@ -117,11 +117,7 @@ const Login = () => {
 
 
   const handleGetStarted = () => {
-    if (session) {
-      router.push('/home');
-    } else {
-      console.log('No session, show login');
-    }
+    router.push('/home');
   };
 
   if (initializing) {
@@ -193,7 +189,7 @@ const Login = () => {
           </LinearGradient>
         </TouchableOpacity>
 
-        <TouchableOpacity
+        {/* <TouchableOpacity
           style={[styles.signInButton, loading && styles.buttonDisabled]}
           onPress={handleGoogleSignIn}
           disabled={loading}
@@ -214,7 +210,7 @@ const Login = () => {
               </>
             )}
           </View>
-        </TouchableOpacity>
+        </TouchableOpacity> */}
       </View>
     </SafeAreaView>
   );

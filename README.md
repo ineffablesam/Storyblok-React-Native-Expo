@@ -46,7 +46,7 @@ A powerful, cross-platform Storyblok SDK built for the **Storyblok x Code and Co
 ## 🎬 Live Demo 
 
 ### Try Blipod App
-- **Web Demo**: [https://blipod-app.vercel.app](https://blipod-app.vercel.app)
+- **Web Demo**: [https://storyblok-react-native-expo.vercel.app/](https://storyblok-react-native-expo.vercel.app/)
 - **Expo Go**: Scan QR code with Expo Go app
 
 ### Video Walkthrough
